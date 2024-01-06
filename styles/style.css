@@ -25,6 +25,17 @@ body {
 
 
 }
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    color: #181818;
+    font-weight: 700;
+}
+.section-description{
+    text-align: center;
+    font-size: 17px;
+    color: #474747;
+}
 
 /* .header {
     background-color: rgb(241, 233, 247);
@@ -110,3 +121,31 @@ background-position: bottom right, top left;
 .banner i{
     padding: 5px 6px;
 }
+/* header End */
+
+/* main section value submit */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* main section value submit */
+
+.section-about{
+    margin: 140px 0px;
+    background-color: rgb(240, 231, 243) ;
+    /* padding: 70px 70px; */
+    padding: 130px;
+    border-radius: 10px;
+}
+.about-info-container{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+/* About section close */
