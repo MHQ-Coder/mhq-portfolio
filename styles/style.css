@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;300;400;500&family=Lemon&display=swap');
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    font-family: 'Geologica', sans-serif;
+    /* font-family: 'Lemon', serif; */
+}
+
+.primary-color {
+    color: rgb(136, 11, 173);
+}
+
+.btn-color {
+    background: rgb(136, 11, 173);
+    color: white;
+    border: 0;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 14px 34px;
+    font-weight: 700;
+
+
+}
+
+/* .header {
+    background-color: rgb(241, 233, 247);
+
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(241, 233, 247); */
+    /* color: black; */
+    /* padding: 20px 100px;
+    font-size: 20px; */
+    margin: 0px 200px;
+
+
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 600;
+    color: #181818;
+
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 50px;
+}
+.menu a{
+    text-decoration: none;
+    /* padding: 6px; */
+    color: #474747;
+}
+
+/* navbar :end */
+
+.header{
+background-color: rgb(240, 231, 243);
+background-image: url('../images2/header\ bg\ up.png'), url('../images/developer.png');
+background-repeat: no-repeat;
+background-position: bottom right, top left;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 146px;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greeting{
+    font-size: 40px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 20px;
+
+
+}
+.banner-description{
+    margin-bottom: 10px;
+}
+.profile.pic{
+    width: 500px;
+}
+.banner i{
+    padding: 5px 6px;
+}
