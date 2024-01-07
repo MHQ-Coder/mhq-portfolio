@@ -182,3 +182,42 @@ main section{
     padding: 0 150px;
     font-size: 18px;
 }
+
+/* Education Start  */
+
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.rusume-column-title{
+    font-size: 30px;
+    color: #474747;
+}
+.resume-item{
+    color: #474747;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 17px;
+
+}
+.resume-column{
+    align-items: center;
+    /* text-align: center; */
+}
+.resume-column hr{
+    margin: 30px;
+}
+.resume-institute{
+    color: rgb(102, 99, 99);
+}
+.resume-btn{
+    /* align-items: center;  */
+    /* justify-content: center;
+     */
+    text-align: center;
+    margin: 50px;
+    }
+.resume-btn i{
+    padding: 5px 6px;
+    } 
+    /* Resume Section End  */
