@@ -327,6 +327,9 @@ textarea {
         text-align: center;
         padding: 0;
     }
+    .banner .btn-color{
+        margin-top: 8px;
+    }
 
     .about-info-container,
     .skill-container,
