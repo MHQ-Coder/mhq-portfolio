@@ -257,21 +257,26 @@ footer {
     padding: 130px 200px;
 
 }
-.footer-column{
+
+.footer-column {
     /* text-align: center; */
     /* align-items: center; */
     width: 50%;
 }
-.footer .section-title{
+
+.footer .section-title {
     font-size: 20px;
 }
-.socail-links a>i{
+
+.socail-links a>i {
     margin-left: 20px;
     font-size: 30px;
     /* color: rgb(136, 11, 173); */
 }
 
-.contact input[type='text'], .contact input[type="email"], textarea{
+.contact input[type='text'],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 20px;
     padding: 17px 30px;
@@ -289,3 +294,66 @@ footer {
     padding: 14px 34px;
     font-weight: 700;
 } */
+
+@media screen and (max-width: 576px) {
+    .container {
+        /* margin: 0;
+        padding: 0; */
+        width: 100%;
+    }
+
+    .header {
+        background-image: none;
+        background-image: url('../images2/header\ bg\ up.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar .logo {
+        font-size: 1.1rem;
+    }
+
+    .banner,
+    footer {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .banner-content {
+        text-align: center;
+        padding: 0;
+    }
+
+    .about-info-container,
+    .skill-container,
+    .resume-container {
+        flex-direction: column;
+
+    }
+
+    .section-about,   .resume-container {
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    footer .footer-column {
+        width: 100%;
+
+    }
+    .socail-links{
+        text-align: center;
+    }
+
+    .contact input[type='text'],
+    .contact input[type="email"],  textarea{
+         width: 80%;
+         /* padding-left: 20px; */
+    }
+    footer .contact{
+        padding-left: 20px;
+    } 
+}
